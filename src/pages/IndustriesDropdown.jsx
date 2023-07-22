@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { industryDropdown } from "./NavItem";
 import { NavLink } from "react-router-dom";
 
-function Dropdown() {
+function IndustriesDropdown() {
   const [dropdown, setDropdown] = useState(false);
 
   return (
@@ -29,4 +29,4 @@ function Dropdown() {
   );
 }
 
-export default Dropdown;
+export default IndustriesDropdown;
